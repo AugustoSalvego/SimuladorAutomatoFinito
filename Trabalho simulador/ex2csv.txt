@@ -1,0 +1,6 @@
+aa;1
+ab;1
+ba;1
+bb;0
+aaa;0
+bbb;0

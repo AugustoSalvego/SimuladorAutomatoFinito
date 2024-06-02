@@ -1,0 +1,6 @@
+ba;1;1;0.0011483
+aaaabbbbbaaaaa;1;1;7.12e-05
+abababab;0;0;1.65e-05
+bbbbbbbb;0;0;2.26e-05
+aaaaaaaaaaaa;0;0;3.11e-05
+aaaaabaaaaa;1;1;2.91e-05
