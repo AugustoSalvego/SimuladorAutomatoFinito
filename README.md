@@ -59,7 +59,7 @@ Usando o terminal abra a pasta
     
 Utilize os comandos
         
-    python SimuladorAutomatoFinito 
+    python SimuladorAutomatoFinito.py
     ex1json.txt 
     ex1csv.txt 
     saida1.txt
