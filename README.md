@@ -29,11 +29,31 @@ O arquivo JSON deve conter os seguintes campos:
       "initial": 0,
       "final": [2],
       "transitions": [
-        { "from": "0", "to": "0", "read": "a" },
-        { "from": "2", "to": "2", "read": "a" },
-        { "from": "1", "to": "1", "read": "b" },
-        { "from": "1", "to": "2", "read": "a" },
-        { "from": "0", "to": "1", "read": "b" }
+        { 
+          "from": "0",
+          "to": "0",
+          "read": "a" 
+        },
+        { 
+          "from": "2",
+          "to": "2",
+          "read": "a" 
+        },
+        { 
+          "from": "1",
+          "to": "1",
+          "read": "b" 
+        },
+        { 
+          "from": "1",
+          "to": "2",
+          "read": "a" 
+        },
+        { 
+          "from": "0",
+          "to": "1",
+          "read": "b" 
+        }
       ]
     }
    
