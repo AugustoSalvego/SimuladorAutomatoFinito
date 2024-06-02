@@ -24,7 +24,7 @@ O arquivo JSON deve conter os seguintes campos:
 - `transitions`: Lista de transições, onde cada transição é um objeto com os campos `from`, `read` (pode ser `null` para epsilon-transições), e `to`.
 
 ### Exemplo de arquivo JSON
-    ´´´sh 
+    
     {
       "initial": 0,
       "final": [2],
@@ -36,7 +36,7 @@ O arquivo JSON deve conter os seguintes campos:
         { "from": "0", "to": "1", "read": "b" }
       ]
     }
-    ´´´ 
+   
 ### Arquivo CSV
 
 CSV de Palavras:
@@ -44,43 +44,38 @@ CSV de Palavras:
 
 ### Exemplo de arquivo csv
 
-    ´´´sh 
     ba;1
     aaaabbbbbaaaaa;1
     abababab;0
     bbbbbbbb;0
     aaaaaaaaaaaa;0
     aaaaabaaaaa;1
-    ´´´
     
 ### Como usar no terminal
 
 Usando o terminal abra a pasta
 
-    ´´´sh cd Trabalho simulador
+    cd Trabalho simulador
     
 Utilize os comandos
         
-    ´´´sh python SimuladorAutomatoFinito 
-          ex1json.txt 
-          ex1csv.txt 
-          saida1.txt
-    ´´´
+    python SimuladorAutomatoFinito 
+    ex1json.txt 
+    ex1csv.txt 
+    saida1.txt
+ 
 
 ### O Código irá realizar a saída em um arquivo CSV
     
-    O formato será:
-    ´´´sh
+   O formato será:
+   
     palavra; resultado esperado; resultado obtido; tempo em segundos
-    ´´´
     
 ### Exemplo de saída CSV 
 
-    ´´´sh
     ba;1;1;0.0011483
     aaaabbbbbaaaaa;1;1;7.12e-05
     abababab;0;0;1.65e-05
     bbbbbbbb;0;0;2.26e-05
     aaaaaaaaaaaa;0;0;3.11e-05
     aaaaabaaaaa;1;1;2.91e-05
-    ´´´
